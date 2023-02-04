@@ -10,7 +10,7 @@ import { readFileSync } from 'fs';
 const app = express();
 const port = 25403;
 
-const COLE_LOCAL = true;
+const COLE_LOCAL = false;
 const FS_XID_ASSOCIATIONS = COLE_LOCAL ? "C:/Users/ColeNelson/Desktop/cs571-s23/hws/apis/hw3-api/secret-generation/ref-codes.secret" : "/secrets/ref-codes.secret";
 const FS_DATA = COLE_LOCAL ? "C:/Users/ColeNelson/Desktop/cs571-s23/hws/apis/hw3-api/secret-generation/clazz.secret" : "/secrets/clazz.secret";
 
